@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ardan's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon"><i class="fas fa-code"></i></span> Ardan
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="home-content">
+            <img src="foto.jpg" alt="Profile Picture" class="profile-pic animate-fade">
+            <h1 class="animate-slide">Hi, I'm Benedictus Ardani Paemba</h1>
+            <p class="animate-slide">Web Developer | Designer | Tech Enthusiast</p>
+            <div class="social-links animate-fade">
+                <a href="https://www.linkedin.com/in/benedictus-ardani-paemba-838347293/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/Benedictus.Ardan.560" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="scroll-container animate-slide">
+                <p class="scroll-text">Scroll down to see my projects</p>
+                <i class="fas fa-chevron-down scroll-arrow"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="animate-slide">About Me</h2>
+        <p class="animate-slide">I'm a passionate web developer with experience in building responsive and user-friendly websites. I love learning new technologies and creating projects that make a difference.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <h2 class="animate-slide">My Work</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item animate-fade">
+                <a href="https://sannvie.github.io/osu-milestone-tracker/" target="_blank" class="portfolio-link">
+                    <div class="portfolio-box">
+                        <img src="project1.jpg" alt="osu! Milestone PP Tracker" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <p>Click to view project</p>
+                        </div>
+                    </div>
+                    <h3>osu! Milestone PP Tracker</h3>
+                    <p>A web application to track osu! players' PP milestones, featuring username input, game mode selection, and accurate score calculations. Built with HTML, CSS, and JavaScript, integrated with osu! and osutrack APIs.</p>
+                </a>
+            </div>
+            <div class="portfolio-item animate-fade">
+                <a href="https://github.com/Sannvie/Google-Play-Review-Scraper" target="_blank" class="portfolio-link">
+                    <div class="portfolio-box">
+                        <img src="project2.jpg" alt="Review Scraper" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <p>View source code</p>
+                        </div>
+                    </div>
+                    <h3>Review Scraper</h3>
+                    <p>A Python-based GUI tool for scraping Google Play Store app reviews by package name, saving them as CSV files. Built with Kivy for a user-friendly interface and google-play-scraper for data retrieval.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="animate-slide">Contact Me</h2>
+        <p class="animate-slide">Feel free to reach out via email or connect with me on social media!</p>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ardanbenedictus@gmail.com" target="_blank" class="btn animate-fade"><i class="fas fa-envelope"></i> Email Me via Gmail</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Benedictus Ardani Paemba. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
